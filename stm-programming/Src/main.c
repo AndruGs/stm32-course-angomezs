@@ -22,6 +22,13 @@
   #warning "FPU is not initialized, but the project is compiling for an FPU. Please initialize the FPU before use."
 #endif
 
+//define variables del sistema
+uint8_t dummy_8bit =0;
+uint16_t dummy_16bit =0;
+uint32_t dummy_32bit =0;
+
+//headers
+
 int main(void)
 {
     /* Loop forever */
