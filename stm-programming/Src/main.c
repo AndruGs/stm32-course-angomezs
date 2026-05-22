@@ -31,6 +31,11 @@ uint32_t dummy_32bit =0;
 
 int main(void)
 {
+
+	dummy_8bit = 23;
+
     /* Loop forever */
-	for(;;);
+	while(1){
+
+	}
 }
