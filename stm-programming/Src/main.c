@@ -22,11 +22,15 @@
 
 int main(void){
 
+// Exercise 0.1 Variables
+uint8_t my_variable = 42;
 
 //headers
 
 int main(void)
 {
+
+}
 	// turn on clock register for GPIOA
 		RCC->AHB1ENR |= RCC_AHB1ENR_GPIOAEN;
 
