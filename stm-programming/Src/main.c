@@ -4,7 +4,7 @@
 #include "stm32f411xe.h"
 
 // Andru Gomez
-// Taller V - Week 00
+// Taller V - Week 00-week-03
 
 int main(void)
 {
@@ -57,18 +57,144 @@ int main(void)
      // uint8_t x8 = 0x80;
 
      // Ejercicio 0.8
-     uint8_t a = 5;
-     uint8_t b = 0;
-     uint8_t c = 255;
+     // uint8_t a = 5;
+     // uint8_t b = 0;
+     // uint8_t c = 255;
 
-     uint8_t r1 = !a;
-     uint8_t r2 = !b;
-     uint8_t r3 = !c;
-     uint8_t r4 = ~c;
-     uint8_t r5 = ~a;
+     // uint8_t r1 = !a;
+     // uint8_t r2 = !b;
+     // uint8_t r3 = !c;
+     // uint8_t r4 = ~c;
+     // uint8_t r5 = ~a;
 
-    while (1)
-    {
+     // Ejercicio 1.1
+     // uint8_t a = 17;
+     // uint8_t b = 5;
 
-    }
-}
+     // uint8_t div_result = a / b;
+     // uint8_t mod_result = a % b;
+     // uint8_t mul_result = a * b;
+
+     // Ejercicio 1.2
+     // uint8_t x = 200;
+     // uint8_t y = 100;
+
+     // uint8_t sum = x + y;
+
+     // Ejercicio 1.3
+     // uint8_t val = 3;
+
+     // uint8_t left1 = val << 1;
+     // uint8_t left2 = val << 2;
+     // uint8_t left3 = val << 3;
+     // uint8_t right1 = val >> 1;
+
+     // uint8_t overflow = 0b10000000;
+     // uint8_t overflow_left = overflow << 1;
+
+	/*
+	 * Ejercicio 1.4
+	 *
+	uint8_t a = 5;
+	uint8_t b = 0;
+	uint8_t c = 10;
+
+	uint8_t result = 0;
+
+	// Condición distinta de cero
+	if (a)
+	{
+	    result = 1;
+	}
+
+	// Condición igual a cero
+	if (b)
+	{
+	    result = 2;
+	}
+	else
+	{
+	    result = 3;
+	}
+
+	// Comparación de igualdad
+	if (c == 10)
+	{
+	    result = 4;
+	}
+	*/
+
+	/*
+	 * Ejercicio 1.5
+	 *
+	uint8_t counter = 0;
+	uint8_t i = 0;
+
+	counter = 0;
+
+	for (i = 10; i > 0; i--)
+	{
+	    counter++;
+	}
+	*/
+
+	/* Ejercicio 1.6
+
+	uint8_t i = 1;
+	uint8_t sum = 0;
+
+	while (i <= 100)
+	{
+	    sum += i;
+	    i++;
+	}
+	*/
+	/* Ejercicio 1.7
+
+	uint8_t result_while = 0;
+	uint8_t result_do = 0;
+
+	while (0)
+	{
+	    result_while = 42;
+	}
+
+	do
+	{
+	    result_do = 42;
+	}
+	while (0);
+	*/
+	// Ejercicio 1.8
+
+	uint8_t input = 3;
+	uint8_t output = 0;
+
+	switch (input)
+	{
+	case 1:
+	    output = 10;
+	    break;
+
+	case 2:
+	    output = 20;
+	    break;
+
+	case 3:
+	    output = 30;
+	    break;
+
+	case 4:
+	    output = 40;
+	    break;
+
+	default:
+	    output = 99;
+	    break;
+	}
+
+	while (1)
+	{
+
+	}
+	}
